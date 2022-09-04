@@ -10,11 +10,5 @@ Welcome to demo's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   microstates.rst
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
