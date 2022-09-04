@@ -27,7 +27,8 @@ html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 
 # Extensions
-extensions = ['myst_parser']
+extensions = ['myst_parser',
+              'sphinxcontrib.bibtex']
 
 # myst_parser
 source_suffix = {
@@ -35,3 +36,6 @@ source_suffix = {
     '.txt': 'markdown',
     '.md': 'markdown',
 }
+
+# bibtex
+bibtex_bibfiles = ['bibliography.bib']
