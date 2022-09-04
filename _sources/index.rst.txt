@@ -12,5 +12,5 @@ Welcome to demo's documentation!
 
    microstates.md
    glossary.rst
-
+   bibliography.rst
 
