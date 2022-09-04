@@ -1,1 +1,0 @@
-# sphinx_collab_demo
