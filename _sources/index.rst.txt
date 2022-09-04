@@ -10,5 +10,7 @@ Welcome to demo's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   microstates.rst
+   microstates.md
+   glossary.rst
+
 

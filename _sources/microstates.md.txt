@@ -1,3 +1,3 @@
 # Microstates
 
-Read {cite}`MICHEL2018577` via {term}`Sphinx`
+Read {cite}`michel2018` via {term}`Sphinx`
