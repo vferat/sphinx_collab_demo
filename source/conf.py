@@ -38,4 +38,4 @@ source_suffix = {
 }
 
 # bibtex
-bibtex_bibfiles = ['bibliography.bib']
+bibtex_bibfiles = ['./bibliography.bib']
