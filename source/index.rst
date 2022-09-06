@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to demo's documentation!
+Welcome to Microstates documentation!
 ================================
 
 .. toctree::
@@ -14,9 +14,15 @@ Welcome to demo's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Microstates
+   :caption: Spontaneous activity
 
-   microstates.md
+   spontaneous_activity/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Event related activity
+
+   erp/index
 
 .. toctree::
    :maxdepth: 1
