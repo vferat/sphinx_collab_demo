@@ -8,7 +8,7 @@ Welcome to demo's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Community:
+   :caption: Community
 
    community.md
 
@@ -16,7 +16,7 @@ Welcome to demo's documentation!
    :maxdepth: 1
    :caption: Microstates
 
-   microstates.m
+   microstates.md
 
 .. toctree::
    :maxdepth: 1
