@@ -7,10 +7,20 @@ Welcome to demo's documentation!
 ================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Community:
 
-   microstates.md
+   community.md
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Microstates
+
+   microstates.m
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Ressources
+
    glossary.rst
    bibliography.rst
-
