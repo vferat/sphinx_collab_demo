@@ -15,7 +15,7 @@ author = 'Victor Férat'
 
 extensions = []
 
-templates_path = ['_templates']
+templates_path = ['_templates', 'spelling.txt']
 exclude_patterns = []
 
 
