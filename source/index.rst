@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to Microstates documentation!
-================================
+=====================================
 
 .. toctree::
    :maxdepth: 1
