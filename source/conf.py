@@ -40,3 +40,8 @@ source_suffix = {
 
 # bibtex
 bibtex_bibfiles = ['./bibliography.bib']
+
+# Spelling
+spelling_word_list_filename = ['spelling.txt']
+spelling_show_suggestions = True
+spelling_show_suggestions  = 5
