@@ -1,6 +1,5 @@
 # Microstates
 
-
 ## Section 1
 
 blabla
