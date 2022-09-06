@@ -1,4 +1,5 @@
-bibliography
+Bibliography
 ============
 
 .. bibliography::
+    :all:
