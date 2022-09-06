@@ -38,6 +38,7 @@ source_suffix = {
     '.md': 'markdown',
 }
 suppress_warnings = ["myst.footnote"]
+myst_footnote_transition = False
 
 # bibtex
 bibtex_bibfiles = ['./bibliography.bib']
