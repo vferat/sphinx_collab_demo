@@ -14,14 +14,9 @@ Welcome to Microstates documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Spontaneous activity
+   :caption: Microstate Analysis
 
    spontaneous_activity/index
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Event related activity
-
    erp/index
 
 .. toctree::
