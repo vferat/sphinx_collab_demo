@@ -3,3 +3,5 @@ myst-parser
 sphinx-book-theme
 sphinxcontrib-bibtex
 sphinxcontrib-spelling
+sphinx-tabs
+sphinx-togglebutton

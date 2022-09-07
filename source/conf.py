@@ -29,7 +29,9 @@ html_static_path = ['_static']
 # Extensions
 extensions = ['myst_parser',
               'sphinxcontrib.bibtex',
-              'sphinxcontrib.spelling']
+              'sphinxcontrib.spelling',
+              'sphinx_tabs.tabs',
+              'sphinx_togglebutton']
 
 # myst_parser
 source_suffix = {
