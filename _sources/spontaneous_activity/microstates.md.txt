@@ -1,14 +1,31 @@
 # Microstates
 
-## Section 1
+## `sphinx-tabs` - Tabbed content
 
-blabla
+````{eval-rst}
+.. tabs::
 
-## Section 2
+   .. tab:: MATLAB
 
-blabla
+      EEG microstate toolbox.
 
-## Section 3
+   .. tab:: PYTHON
+
+      Pycrostates.
+
+   .. tab:: CARTOOL
+
+      Cartool.
+````
+
+## `sphinx_togglebutton` - Toggle content with buttons
+
+```{image} https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif
+:class: toggle
+```
+
+
+## `sphinxcontrib-bibtex` - References and bibliographies
 
 Read {footcite}`michel2018` via {term}`GFP`
 

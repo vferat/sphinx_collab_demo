@@ -22,6 +22,8 @@
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
     
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
@@ -30,7 +32,12 @@
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
     <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Microstates" href="microstates.html" />
@@ -295,9 +302,9 @@ title="Print to PDF"
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="microstates.html">Microstates</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="microstates.html#section-1">Section 1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="microstates.html#section-2">Section 2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="microstates.html#section-3">Section 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="microstates.html#sphinx-tabs-tabbed-content"><code class="docutils literal notranslate"><span class="pre">sphinx-tabs</span></code> - Tabbed content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="microstates.html#sphinx-togglebutton-toggle-content-with-buttons"><code class="docutils literal notranslate"><span class="pre">sphinx_togglebutton</span></code> - Toggle content with buttons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="microstates.html#sphinxcontrib-bibtex-references-and-bibliographies"><code class="docutils literal notranslate"><span class="pre">sphinxcontrib-bibtex</span></code> - References and bibliographies</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="segmentation.html">Segmentation</a></li>

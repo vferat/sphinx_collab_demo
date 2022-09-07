@@ -22,6 +22,8 @@
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
     
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
@@ -30,7 +32,13 @@
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
+    <script src="../_static/tabs.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
     <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Segmentation" href="segmentation.html" />
@@ -288,18 +296,33 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-1">
-   Section 1
+  <a class="reference internal nav-link" href="#sphinx-tabs-tabbed-content">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     sphinx-tabs
+    </span>
+   </code>
+   - Tabbed content
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-2">
-   Section 2
+  <a class="reference internal nav-link" href="#sphinx-togglebutton-toggle-content-with-buttons">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     sphinx_togglebutton
+    </span>
+   </code>
+   - Toggle content with buttons
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-3">
-   Section 3
+  <a class="reference internal nav-link" href="#sphinxcontrib-bibtex-references-and-bibliographies">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     sphinxcontrib-bibtex
+    </span>
+   </code>
+   - References and bibliographies
   </a>
  </li>
 </ul>
@@ -322,18 +345,33 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-1">
-   Section 1
+  <a class="reference internal nav-link" href="#sphinx-tabs-tabbed-content">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     sphinx-tabs
+    </span>
+   </code>
+   - Tabbed content
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-2">
-   Section 2
+  <a class="reference internal nav-link" href="#sphinx-togglebutton-toggle-content-with-buttons">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     sphinx_togglebutton
+    </span>
+   </code>
+   - Toggle content with buttons
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-3">
-   Section 3
+  <a class="reference internal nav-link" href="#sphinxcontrib-bibtex-references-and-bibliographies">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     sphinxcontrib-bibtex
+    </span>
+   </code>
+   - References and bibliographies
   </a>
  </li>
 </ul>
@@ -348,16 +386,20 @@ title="Print to PDF"
                 
   <section id="microstates">
 <h1>Microstates<a class="headerlink" href="#microstates" title="Permalink to this headline">#</a></h1>
-<section id="section-1">
-<h2>Section 1<a class="headerlink" href="#section-1" title="Permalink to this headline">#</a></h2>
-<p>blabla</p>
+<section id="sphinx-tabs-tabbed-content">
+<h2><code class="docutils literal notranslate"><span class="pre">sphinx-tabs</span></code> - Tabbed content<a class="headerlink" href="#sphinx-tabs-tabbed-content" title="Permalink to this headline">#</a></h2>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-0-0" aria-selected="true" class="sphinx-tabs-tab" id="tab-0-0-0" name="0-0" role="tab" tabindex="0">MATLAB</button><button aria-controls="panel-0-0-1" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-1" name="0-1" role="tab" tabindex="-1">PYTHON</button><button aria-controls="panel-0-0-2" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-2" name="0-2" role="tab" tabindex="-1">CARTOOL</button></div><div aria-labelledby="tab-0-0-0" class="sphinx-tabs-panel" id="panel-0-0-0" name="0-0" role="tabpanel" tabindex="0"><p>EEG microstate toolbox.</p>
+</div><div aria-labelledby="tab-0-0-1" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-1" name="0-1" role="tabpanel" tabindex="0"><p>Pycrostates.</p>
+</div><div aria-labelledby="tab-0-0-2" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-2" name="0-2" role="tabpanel" tabindex="0"><p>Cartool.</p>
+</div></div>
 </section>
-<section id="section-2">
-<h2>Section 2<a class="headerlink" href="#section-2" title="Permalink to this headline">#</a></h2>
-<p>blabla</p>
+<section id="sphinx-togglebutton-toggle-content-with-buttons">
+<h2><code class="docutils literal notranslate"><span class="pre">sphinx_togglebutton</span></code> - Toggle content with buttons<a class="headerlink" href="#sphinx-togglebutton-toggle-content-with-buttons" title="Permalink to this headline">#</a></h2>
+<img alt="https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif" class="toggle" src="https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif" />
 </section>
-<section id="section-3">
-<h2>Section 3<a class="headerlink" href="#section-3" title="Permalink to this headline">#</a></h2>
+<section id="sphinxcontrib-bibtex-references-and-bibliographies">
+<h2><code class="docutils literal notranslate"><span class="pre">sphinxcontrib-bibtex</span></code> - References and bibliographies<a class="headerlink" href="#sphinxcontrib-bibtex-references-and-bibliographies" title="Permalink to this headline">#</a></h2>
 <p>Read <a class="footnote-reference brackets" href="#footcite-michel2018" id="id1">1</a> via <a class="reference internal" href="../glossary.html#term-GFP"><span class="xref std std-term">GFP</span></a></p>
 <div class="docutils container" id="id2">
 <dl class="footnote brackets">
