@@ -11,6 +11,7 @@ Welcome to Microstates documentation!
    :caption: Community
 
    community.md
+   contributing.md
 
 .. toctree::
    :maxdepth: 1
