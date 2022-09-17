@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'demo'
+project = 'Microstate HUB'
 copyright = '2022, Victor Férat'
 author = 'Victor Férat'
 github_user = "vferat"
@@ -34,6 +34,7 @@ html_theme_options = {
     "use_issues_button": True,
     "use_edit_page_button": True,
     "repository_branch": "main",
+    "use_fullscreen_button": False,
     #"launch_buttons": True, # Add binder to jupyter notebook pages
 }
 
