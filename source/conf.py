@@ -28,20 +28,25 @@ html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 
 html_theme_options = {
-    "repository_url": github_user + "/" + github_project,
+    "repository_url":  f"https://github.com/{github_user}/{github_project}/",
     "path_to_docs": "source/",
     "use_repository_button": True,
     "use_issues_button": True,
     "use_edit_page_button": True,
     "repository_branch": "main",
     "use_fullscreen_button": False,
-    #"launch_buttons": True, # Add binder to jupyter notebook pages
+    "launch_buttons": {
+        #"thebe": True,
+        "binderhub_url": "https://mybinder.org/"
+    },
+    
 }
 
 # Extensions
 extensions = ['myst_parser',
               'sphinxcontrib.bibtex',
-              'sphinxcontrib.spelling']
+              'sphinxcontrib.spelling',
+              "sphinx_thebe"]
 
 # myst_parser
 source_suffix = {
