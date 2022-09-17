@@ -16,7 +16,7 @@ github_project = 'sphinx_collab_demo'
 
 extensions = []
 
-templates_path = ['_templates']
+templates_path = ['_templates', 'spelling.txt']
 exclude_patterns = []
 
 
@@ -46,6 +46,8 @@ html_theme_options = {
 extensions = ['myst_parser',
               'sphinxcontrib.bibtex',
               'sphinxcontrib.spelling',
+              'sphinx_tabs.tabs',
+              'sphinx_togglebutton',
               "sphinx_thebe"]
 
 # myst_parser
@@ -54,6 +56,8 @@ source_suffix = {
     '.txt': 'markdown',
     '.md': 'markdown',
 }
+suppress_warnings = ["myst.footnote"]
+myst_footnote_transition = False
 
 # bibtex
 bibtex_bibfiles = ['./bibliography.bib']
