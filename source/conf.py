@@ -9,7 +9,7 @@
 project = 'demo'
 copyright = '2022, Victor Férat'
 author = 'Victor Férat'
-
+github_project = 'sphinx_collab_demo'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -25,6 +25,13 @@ exclude_patterns = []
 
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
+
+html_theme_options = {
+    "repository_url": f"https://github.com/{github_project}",
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_edit_page_button": True,
+}
 
 # Extensions
 extensions = ['myst_parser',
