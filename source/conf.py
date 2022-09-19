@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Microstate HUB'
+project = 'Microstates HUB'
 copyright = '2022, Victor Férat'
 author = 'Victor Férat'
 github_user = "vferat"
@@ -20,6 +20,10 @@ templates_path = ['_templates', 'spelling.txt']
 exclude_patterns = []
 
 numfig = True
+
+html_title = "Microstates HUB"
+html_logo = "path/to/logo.png"
+html_favicon = "path/to/favicon.ico"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

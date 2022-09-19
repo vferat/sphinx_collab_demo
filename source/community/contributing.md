@@ -2,11 +2,14 @@
 
 Here are the  contribution guidelines
 
-## Synthax
+## Syntax
 
-Here is a brief overview of synthax that can be use to populate this website.
+Here is a brief overview of syntax that can be use to populate this website.
 
+Microstates HUB support uses markdown syntax, please check the [markdown guide](https://www.markdownguide.org/basic-syntax/)
+to learn the basic syntax.
 
+Additional features are listed below.
 
 ## Figures
 
@@ -15,7 +18,7 @@ Here is a brief overview of synthax that can be use to populate this website.
 ---
 width: 60%
 alt: My figure text
-name: reference-margin-fig
+name: my_figure
 ---
 And here is my figure caption.
 ```
@@ -182,9 +185,32 @@ Tabbed content can be added using `sphinx-tabs`:
       Cartool.
 ````
 
-## `sphinx_togglebutton` - Toggle content with buttons
+## Custom
+
+You can add HTML content directly in your `markdown` files:
+
+
+``````html
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0VypHqSlFRWpshnWwzLe5K?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+``````
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0VypHqSlFRWpshnWwzLe5K?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+## Toggle content with buttons
+
+
+The extension `sphinx_togglebutton` allows to add content in toggle frames.
+
+``````restructuredtext
 
 ```{image} https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif
 :class: toggle
 ```
-## Basic synthax
+
+``````
+
+```{image} https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif
+:class: toggle
+```

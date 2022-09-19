@@ -3,15 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Microstates documentation!
-=====================================
+Microstates HUB
+===============
 
 .. toctree::
    :maxdepth: 1
    :caption: Community
 
-   community.md
-   contributing.md
+   community/tweeter.md
+   community/slack.md
+   community/contributing.md
 
 .. toctree::
    :maxdepth: 1
@@ -22,7 +23,16 @@ Welcome to Microstates documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Ressources
+   :caption: Softwares
 
-   glossary.rst
-   bibliography.rst
+   softwares/Cartool.md
+   softwares/EEGLAB_plugin.md
+   softwares/Pycrostates.md
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Resources
+
+   resources/glossary.rst
+   resources/bibliography.rst
+

@@ -4,7 +4,7 @@ Talking about Microstates on spontaneous activity.
 
 
 ```{toctree}
-microstates.md
-segmentation.md
+chapter1.md
+chapter2.md
 
 ```
