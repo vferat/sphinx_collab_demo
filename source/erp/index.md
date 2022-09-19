@@ -1,8 +1,9 @@
 # Microstates on event related activity
 
-Talking about Microstateson event related activity.
+Talking about Microstates on event related activity.
 
 
 ```{toctree}
-segmentation.md
+chapter1.md
+
 ```
