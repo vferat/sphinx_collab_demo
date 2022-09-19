@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Microstates on spontaneous activity &#8212; demo  documentation</title>
+    <title>Microstates on spontaneous activity &#8212; Microstates HUB</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
     
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -38,10 +39,16 @@
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Microstates" href="microstates.html" />
-    <link rel="prev" title="Tweeter" href="../community.html" />
+    <link rel="next" title="Chapter 1" href="chapter1.html" />
+    <link rel="prev" title="Contributing" href="../community/contributing.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -80,7 +87,7 @@
       
       
       
-      <h1 class="site-logo" id="site-title">demo  documentation</h1>
+      <h1 class="site-logo" id="site-title">Microstates HUB</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
@@ -95,8 +102,18 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../community.html">
+  <a class="reference internal" href="../community/tweeter.html">
    Tweeter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../community/slack.html">
+   Slack
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../community/contributing.html">
+   Contributing
   </a>
  </li>
 </ul>
@@ -117,13 +134,13 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="microstates.html">
-     Microstates
+    <a class="reference internal" href="chapter1.html">
+     Chapter 1
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="segmentation.html">
-     Segmentation
+    <a class="reference internal" href="chapter2.html">
+     Chapter 2
     </a>
    </li>
   </ul>
@@ -139,8 +156,8 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../erp/segmentation.html">
-     Segmentation
+    <a class="reference internal" href="../erp/chapter1.html">
+     Chapter 1
     </a>
    </li>
   </ul>
@@ -148,17 +165,39 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Ressources
+  Softwares
  </span>
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../glossary.html">
+  <a class="reference internal" href="../softwares/Cartool.html">
+   Cartool
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../softwares/EEGLAB_plugin.html">
+   EEGLAB Plugin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../softwares/Pycrostates.html">
+   Pycrostates
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../resources/glossary.html">
    Glossary
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../bibliography.html">
+  <a class="reference internal" href="../resources/bibliography.html">
    Bibliography
   </a>
  </li>
@@ -213,19 +252,67 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/vferat/sphinx_collab_demo/"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
 >
   
 
 <span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
+  <i class="fab fa-github"></i>
   </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
 
-</button>
+      </li>
+      
+      <li>
+        <a href="https://github.com/vferat/sphinx_collab_demo//issues/new?title=Issue%20on%20page%20%2Fspontaneous_activity/index.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/vferat/sphinx_collab_demo/edit/main/source/spontaneous_activity/index.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
 
 <div class="menu-dropdown menu-dropdown-download-buttons">
   <button class="headerbtn menu-dropdown__trigger"
@@ -301,24 +388,31 @@ title="Print to PDF"
 <p>Talking about Microstates on spontaneous activity.</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="microstates.html">Microstates</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="microstates.html#sphinx-togglebutton-toggle-content-with-buttons"><code class="docutils literal notranslate"><span class="pre">sphinx_togglebutton</span></code> - Toggle content with buttons</a></li>
-<li class="toctree-l2"><a class="reference internal" href="microstates.html#basic-synthax">Basic synthax</a></li>
-<li class="toctree-l2"><a class="reference internal" href="microstates.html#figures">Figures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="microstates.html#notes">Notes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="microstates.html#references-and-bibliographies">References and bibliographies</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="microstates.html#references">References</a></li>
-<li class="toctree-l3"><a class="reference internal" href="microstates.html#bibliography">Bibliography</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="microstates.html#tabbed-content">Tabbed content</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="segmentation.html">Segmentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapter1.html">Chapter 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapter2.html">Chapter 2</a></li>
 </ul>
 </div>
 </section>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./spontaneous_activity"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -327,17 +421,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="../community.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../community/contributing.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Tweeter</p>
+            <p class="prev-next-title">Contributing</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="microstates.html" title="next page">
+    <a class='right-next' id="next-link" href="chapter1.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Microstates</p>
+        <p class="prev-next-title">Chapter 1</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

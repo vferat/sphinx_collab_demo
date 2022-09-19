@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Microstates &#8212; demo  documentation</title>
+    <title>Contributing &#8212; Microstates HUB</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
     
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -39,10 +40,17 @@
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Segmentation" href="segmentation.html" />
-    <link rel="prev" title="Microstates on spontaneous activity" href="index.html" />
+    <link rel="next" title="Microstates on spontaneous activity" href="../spontaneous_activity/index.html" />
+    <link rel="prev" title="Slack" href="slack.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -81,7 +89,7 @@
       
       
       
-      <h1 class="site-logo" id="site-title">demo  documentation</h1>
+      <h1 class="site-logo" id="site-title">Microstates HUB</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
@@ -94,10 +102,20 @@
   Community
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../community.html">
+  <a class="reference internal" href="tweeter.html">
    Tweeter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="slack.html">
+   Slack
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Contributing
   </a>
  </li>
 </ul>
@@ -106,25 +124,25 @@
   Microstate Analysis
  </span>
 </p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active has-children">
-  <a class="reference internal" href="index.html">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../spontaneous_activity/index.html">
    Microstates on spontaneous activity
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     Microstates
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../spontaneous_activity/chapter1.html">
+     Chapter 1
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="segmentation.html">
-     Segmentation
+    <a class="reference internal" href="../spontaneous_activity/chapter2.html">
+     Chapter 2
     </a>
    </li>
   </ul>
@@ -140,8 +158,8 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../erp/segmentation.html">
-     Segmentation
+    <a class="reference internal" href="../erp/chapter1.html">
+     Chapter 1
     </a>
    </li>
   </ul>
@@ -149,17 +167,39 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Ressources
+  Softwares
  </span>
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../glossary.html">
+  <a class="reference internal" href="../softwares/Cartool.html">
+   Cartool
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../softwares/EEGLAB_plugin.html">
+   EEGLAB Plugin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../softwares/Pycrostates.html">
+   Pycrostates
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../resources/glossary.html">
    Glossary
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../bibliography.html">
+  <a class="reference internal" href="../resources/bibliography.html">
    Bibliography
   </a>
  </li>
@@ -214,19 +254,67 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/vferat/sphinx_collab_demo/"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
 >
   
 
 <span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
+  <i class="fab fa-github"></i>
   </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
 
-</button>
+      </li>
+      
+      <li>
+        <a href="https://github.com/vferat/sphinx_collab_demo//issues/new?title=Issue%20on%20page%20%2Fcommunity/contributing.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/vferat/sphinx_collab_demo/edit/main/source/community/contributing.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
 
 <div class="menu-dropdown menu-dropdown-download-buttons">
   <button class="headerbtn menu-dropdown__trigger"
@@ -236,7 +324,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/spontaneous_activity/microstates.md.txt"
+        <a href="../_sources/community/contributing.md.txt"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -296,18 +384,8 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sphinx-togglebutton-toggle-content-with-buttons">
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     sphinx_togglebutton
-    </span>
-   </code>
-   - Toggle content with buttons
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#basic-synthax">
-   Basic synthax
+  <a class="reference internal nav-link" href="#syntax">
+   Syntax
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -316,9 +394,21 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mathematics">
+   Mathematics
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#notes">
    Notes
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#margin">
+     Margin
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#references-and-bibliographies">
@@ -340,6 +430,16 @@ title="Print to PDF"
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#tabbed-content">
    Tabbed content
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#custom">
+   Custom
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#toggle-content-with-buttons">
+   Toggle content with buttons
   </a>
  </li>
 </ul>
@@ -351,7 +451,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Microstates</h1>
+                <h1>Contributing</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -362,18 +462,8 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sphinx-togglebutton-toggle-content-with-buttons">
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     sphinx_togglebutton
-    </span>
-   </code>
-   - Toggle content with buttons
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#basic-synthax">
-   Basic synthax
+  <a class="reference internal nav-link" href="#syntax">
+   Syntax
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -382,9 +472,21 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mathematics">
+   Mathematics
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#notes">
    Notes
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#margin">
+     Margin
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#references-and-bibliographies">
@@ -406,6 +508,16 @@ title="Print to PDF"
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#tabbed-content">
    Tabbed content
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#custom">
+   Custom
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#toggle-content-with-buttons">
+   Toggle content with buttons
   </a>
  </li>
 </ul>
@@ -418,20 +530,76 @@ title="Print to PDF"
                 
               <div>
                 
-  <section id="microstates">
-<h1>Microstates<a class="headerlink" href="#microstates" title="Permalink to this headline">#</a></h1>
-<section id="sphinx-togglebutton-toggle-content-with-buttons">
-<h2><code class="docutils literal notranslate"><span class="pre">sphinx_togglebutton</span></code> - Toggle content with buttons<a class="headerlink" href="#sphinx-togglebutton-toggle-content-with-buttons" title="Permalink to this headline">#</a></h2>
-<img alt="https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif" class="toggle" src="https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif" />
-</section>
-<section id="basic-synthax">
-<h2>Basic synthax<a class="headerlink" href="#basic-synthax" title="Permalink to this headline">#</a></h2>
+  <section id="contributing">
+<h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">#</a></h1>
+<p>Here are the  contribution guidelines</p>
+<section id="syntax">
+<h2>Syntax<a class="headerlink" href="#syntax" title="Permalink to this headline">#</a></h2>
+<p>Here is a brief overview of syntax that can be use to populate this website.</p>
+<p>Microstates HUB support uses markdown syntax, please check the <a class="reference external" href="https://www.markdownguide.org/basic-syntax/">markdown guide</a>
+to learn the basic syntax.</p>
+<p>Additional features are listed below.</p>
 </section>
 <section id="figures">
 <h2>Figures<a class="headerlink" href="#figures" title="Permalink to this headline">#</a></h2>
+<div class="highlight-restructuredtext notranslate"><div class="highlight"><pre><span></span><span class="gh">```{figure} ../images/cool.jpg</span>
+<span class="gh">---</span>
+width: 60%
+alt: My figure text
+<span class="gh">name: my_figure</span>
+<span class="gh">---</span>
+<span class="gh">And here is my figure caption.</span>
+<span class="gh">```</span>
+</pre></div>
+</div>
+<figure class="align-default" id="my-figure">
+<a class="reference internal image-reference" href="images/cool.jpg"><img alt="My figure text" src="images/cool.jpg" style="width: 60%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">And here is my figure caption.</span><a class="headerlink" href="#my-figure" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>You can use the <code class="docutils literal notranslate"><span class="pre">:name:</span></code> variable to link to figure:</p>
+<div class="highlight-restructuredtext notranslate"><div class="highlight"><pre><span></span> {numref}<span class="nv">`my_figure`</span>
+</pre></div>
+</div>
+<p>link to the figure <a class="reference internal" href="#my-figure"><span class="std std-numref">Fig. 1</span></a></p>
+</section>
+<section id="mathematics">
+<h2>Mathematics<a class="headerlink" href="#mathematics" title="Permalink to this headline">#</a></h2>
+<div class="highlight-restructuredtext notranslate"><div class="highlight"><pre><span></span><span class="s">```{math}</span>
+<span class="s">:label: my_label</span>
+<span class="s">w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}</span>
+<span class="s">```</span>
+</pre></div>
+</div>
+<div class="math notranslate nohighlight" id="equation-my-label">
+<span class="eqno">(1)<a class="headerlink" href="#equation-my-label" title="Permalink to this equation">#</a></span>\[w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}\]</div>
+<p>You can use the <code class="docutils literal notranslate"><span class="pre">:label:</span></code> variable to link to equation:</p>
+<div class="highlight-restructuredtext notranslate"><div class="highlight"><pre><span></span> {eq}<span class="nv">`my_label`</span>
+</pre></div>
+</div>
+<p>link to the equation <a class="reference internal" href="#equation-my-label">(1)</a></p>
 </section>
 <section id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">#</a></h2>
+<section id="margin">
+<h3>Margin<a class="headerlink" href="#margin" title="Permalink to this headline">#</a></h3>
+<aside class="margin sidebar">
+<p class="sidebar-title"><strong>Notes in margins</strong></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A note in margin</p>
+</div>
+</aside>
+<p>Note in margin</p>
+<div class="highlight-restructuredtext notranslate"><div class="highlight"><pre><span></span><span class="s">````{margin} **Notes in margins**</span>
+<span class="s">```{note}</span>
+<span class="s">A note in margin</span>
+<span class="s">```</span>
+<span class="s">````</span>
+</pre></div>
+</div>
+</section>
 </section>
 <section id="references-and-bibliographies">
 <h2>References and bibliographies<a class="headerlink" href="#references-and-bibliographies" title="Permalink to this headline">#</a></h2>
@@ -469,7 +637,7 @@ refer to the citation using the bibtex keyword:</p>
 </dd>
 </dl>
 </div>
-<p>Note that all references will also be listed in the website <a class="reference internal" href="../bibliography.html#bibliography"><span class="std std-ref">Bibliography</span></a>.</p>
+<p>Note that all references will also be listed in the website <a class="reference internal" href="../resources/bibliography.html#bibliography"><span class="std std-ref">Bibliography</span></a>.</p>
 </section>
 </section>
 <section id="tabbed-content">
@@ -498,8 +666,45 @@ refer to the citation using the bibtex keyword:</p>
 </div><div aria-labelledby="tab-2-2-2" class="sphinx-tabs-panel" hidden="true" id="panel-2-2-2" name="2-2" role="tabpanel" tabindex="0"><p>Cartool.</p>
 </div></div>
 </section>
+<section id="custom">
+<h2>Custom<a class="headerlink" href="#custom" title="Permalink to this headline">#</a></h2>
+<p>You can add HTML content directly in your <code class="docutils literal notranslate"><span class="pre">markdown</span></code> files:</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;border-radius:12px&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://open.spotify.com/embed/track/0VypHqSlFRWpshnWwzLe5K?utm_source=generator&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;380&quot;</span> <span class="na">frameBorder</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">allowfullscreen</span><span class="o">=</span><span class="s">&quot;&quot;</span> <span class="na">allow</span><span class="o">=</span><span class="s">&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot;</span> <span class="na">loading</span><span class="o">=</span><span class="s">&quot;lazy&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0VypHqSlFRWpshnWwzLe5K?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</section>
+<section id="toggle-content-with-buttons">
+<h2>Toggle content with buttons<a class="headerlink" href="#toggle-content-with-buttons" title="Permalink to this headline">#</a></h2>
+<p>The extension <code class="docutils literal notranslate"><span class="pre">sphinx_togglebutton</span></code> allows to add content in toggle frames.</p>
+<div class="highlight-restructuredtext notranslate"><div class="highlight"><pre><span></span><span class="s">```{image} https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif</span>
+<span class="s">:class: toggle</span>
+<span class="s">```</span>
+</pre></div>
+</div>
+<img alt="https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif" class="toggle" src="https://media.giphy.com/media/FaKV1cVKlVRxC/giphy.gif" />
+</section>
 </section>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./community"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -508,17 +713,17 @@ refer to the citation using the bibtex keyword:</p>
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="index.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="slack.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Microstates on spontaneous activity</p>
+            <p class="prev-next-title">Slack</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="segmentation.html" title="next page">
+    <a class='right-next' id="next-link" href="../spontaneous_activity/index.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Segmentation</p>
+        <p class="prev-next-title">Microstates on spontaneous activity</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

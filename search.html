@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search &#8212; demo  documentation</title>
+    <title>Search &#8212; Microstates HUB</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/tabs.css" />
     
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -39,6 +40,12 @@
     <script src="_static/togglebutton.js"></script>
     <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
     <script src="_static/searchtools.js"></script>
     <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
@@ -84,7 +91,7 @@
       
       
       
-      <h1 class="site-logo" id="site-title">demo  documentation</h1>
+      <h1 class="site-logo" id="site-title">Microstates HUB</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="#" method="get">
@@ -99,8 +106,18 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="community.html">
+  <a class="reference internal" href="community/tweeter.html">
    Tweeter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="community/slack.html">
+   Slack
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="community/contributing.html">
+   Contributing
   </a>
  </li>
 </ul>
@@ -121,13 +138,13 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="spontaneous_activity/microstates.html">
-     Microstates
+    <a class="reference internal" href="spontaneous_activity/chapter1.html">
+     Chapter 1
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="spontaneous_activity/segmentation.html">
-     Segmentation
+    <a class="reference internal" href="spontaneous_activity/chapter2.html">
+     Chapter 2
     </a>
    </li>
   </ul>
@@ -143,8 +160,8 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="erp/segmentation.html">
-     Segmentation
+    <a class="reference internal" href="erp/chapter1.html">
+     Chapter 1
     </a>
    </li>
   </ul>
@@ -152,17 +169,39 @@
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Ressources
+  Softwares
  </span>
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="glossary.html">
+  <a class="reference internal" href="softwares/Cartool.html">
+   Cartool
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="softwares/EEGLAB_plugin.html">
+   EEGLAB Plugin
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="softwares/Pycrostates.html">
+   Pycrostates
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="resources/glossary.html">
    Glossary
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="bibliography.html">
+  <a class="reference internal" href="resources/bibliography.html">
    Bibliography
   </a>
  </li>
@@ -217,19 +256,50 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/vferat/sphinx_collab_demo/"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
 >
   
 
 <span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
+  <i class="fab fa-github"></i>
   </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
 
-</button>
+      </li>
+      
+      <li>
+        <a href="https://github.com/vferat/sphinx_collab_demo//issues/new?title=Issue%20on%20page%20%2Fsearch.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
 
     </div>
 </div>
