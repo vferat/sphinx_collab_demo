@@ -10,7 +10,7 @@ Microstates HUB
    :maxdepth: 1
    :caption: Community
 
-   community/tweeter.md
+   community/twitter.md
    community/slack.md
    community/contributing.md
 
