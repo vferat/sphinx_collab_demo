@@ -22,7 +22,7 @@ on GitHub to discuss ideas for changes or enhancements
 
 - Add/Edit markdown (.md) files.
 
-- [Open a pull request](https://github.com/EEG-microstates-Community/Microstates_HUB/issues/compare)
+- [Open a pull request](https://github.com/EEG-microstates-Community/Microstates_HUB/compare)
 
 
 A detailed guide on markdown syntax use to generate the website can be found [here](markdown_syntax).
@@ -54,7 +54,7 @@ To be able to build the website localy
 - Install pycrostates in editable mode with all optional dependencies:
 
     ```console
-    pip ms_hub -r requirements.txt
+    pip install -r requirements.txt
     ```
 
 - You should be able to build the website using the ```make`` command:
@@ -66,4 +66,4 @@ make html
 - You can use ``` make clean``` to clean the current build.
 
 
-- [Open a pull request](https://github.com/EEG-microstates-Community/Microstates_HUB/issues/compare)
+- [Open a pull request](https://github.com/EEG-microstates-Community/Microstates_HUB/compare)
