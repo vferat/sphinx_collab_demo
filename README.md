@@ -1,7 +1,7 @@
 # Microstates HUB
 
 Microstates HUB is an educational collaborative repository aimed to gather general information about M/EEG microstates.
-It is accompanied by a [website](ttps://eeg-microstates-community.github.io/Microstates_HUB/) and a  [Forum](https://github.com/EEG-microstates-Community/Microstates_HUB/discussions).
+It is accompanied by a [website](https://eeg-microstates-community.github.io/Microstates_HUB/) and a  [Forum](https://github.com/EEG-microstates-Community/Microstates_HUB/discussions).
 
 All contributions are welcome, for more information, please refer to the section [Contributing](https://eeg-microstates-community.github.io/Microstates_HUB/dev/contributing.html) section.
 
