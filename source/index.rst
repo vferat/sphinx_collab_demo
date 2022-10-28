@@ -11,7 +11,7 @@ Microstates HUB
    :caption: Community
 
    community/twitter.md
-   community/slack.md
+   community/discussions.md
    community/contributing.md
 
 .. toctree::

@@ -7,10 +7,10 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Microstates HUB'
-copyright = '2022, Victor Férat'
-author = 'Victor Férat'
-github_user = "vferat"
-github_project = 'sphinx_collab_demo'
+copyright = '2022, EEG Microstates Community'
+author = 'EEG Microstates Community'
+github_user = "EEG-microstates-Community"
+github_project = 'Microstates_HUB'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 

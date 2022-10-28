@@ -1,0 +1,21 @@
+{% extends "pydata_sphinx_theme/layout.html" %}
+
+{% block docs_body %}
+{{ super() }}
+<!-- giscus -->
+<script src="https://giscus.app/client.js"
+        data-repo="EEG-microstates-Community/Microstates_HUB"
+        data-repo-id="R_kgDOIU-fMA"
+        data-category="Microstates HUB"
+        data-category-id="DIC_kwDOIU-fMM4CSP8A"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+{% endblock %}
