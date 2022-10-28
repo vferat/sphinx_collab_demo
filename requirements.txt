@@ -6,3 +6,4 @@ sphinxcontrib-spelling
 sphinx-tabs
 sphinx-togglebutton
 sphinx_thebe
+sphinx_issues

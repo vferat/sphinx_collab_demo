@@ -1,15 +1,13 @@
-# Contributing
-
-Here are the  contribution guidelines
-
-## Syntax
+(markdown_syntax)=
+# How to add content
 
 Here is a brief overview of syntax that can be use to populate this website.
 
-Microstates HUB support uses markdown syntax, please check the [markdown guide](https://www.markdownguide.org/basic-syntax/)
-to learn the basic syntax.
+Microstates HUB uses markdown, a simple and efficent markup language.
+You can check the [markdown guide](https://www.markdownguide.org/basic-syntax/) to get the basics of it.
 
-Additional features are listed below.
+In addition, the website offers different extensions to create more specific content.
+Additional features are listed below:
 
 ## Figures
 

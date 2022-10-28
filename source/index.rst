@@ -11,8 +11,7 @@ Microstates HUB
    :caption: Community
 
    community/twitter.md
-   community/slack.md
-   community/contributing.md
+   community/discussions.md
 
 .. toctree::
    :maxdepth: 1
@@ -35,4 +34,10 @@ Microstates HUB
 
    resources/glossary.rst
    resources/bibliography.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Development
+
+   dev/index
 

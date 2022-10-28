@@ -1,0 +1,1 @@
+.. _Victor Férat: https://github.com/vferat
